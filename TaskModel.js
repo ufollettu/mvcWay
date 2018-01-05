@@ -2,7 +2,6 @@ var TaskModel = function () {
     this.tasks = [];
     this.selectedTasks = [];
     this.addTaskEvent = new Event(this);
-    this.removeTaskEvent = new Event(this);
     this.setTasksAsCompletedEvent = new Event(this);
     this.deleteTasksEvent = new Event(this);
 
